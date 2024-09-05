@@ -41,6 +41,14 @@ public class CacheConfiguration {
             createCache(cm, com.ubs.emp.engagement.repository.UserRepository.USERS_BY_LOGIN_CACHE);
             createCache(cm, com.ubs.emp.engagement.repository.UserRepository.USERS_BY_EMAIL_CACHE);
             createCache(cm, com.ubs.emp.engagement.domain.Authority.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppUser.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppLookup.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppTopicLookup.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppTopicType.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppSubjectType.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppSubject.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppSubjectConfig.class.getName());
+            createCache(cm, com.ubs.emp.engagement.domain.AppUserGroup.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

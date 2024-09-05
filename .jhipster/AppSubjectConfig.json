@@ -1,0 +1,27 @@
+{
+  "annotations": {
+    "changelogDate": "20240905093444"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "subjectCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "payload",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "AppSubjectConfig",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

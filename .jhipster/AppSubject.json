@@ -1,0 +1,39 @@
+{
+  "annotations": {
+    "changelogDate": "20240905080639"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "subjectCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "topicCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isApprovalRequired",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isApproved",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "detailsJson",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "AppSubject",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

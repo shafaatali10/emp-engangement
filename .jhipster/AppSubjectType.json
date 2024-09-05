@@ -1,0 +1,23 @@
+{
+  "annotations": {
+    "changelogDate": "20240905080050"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "subjectCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "AppSubjectType",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

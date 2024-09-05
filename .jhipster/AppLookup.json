@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20240905062141"
+  },
+  "fields": [
+    {
+      "fieldName": "lookupCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "displayValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sequence",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dependentCode",
+      "fieldType": "String"
+    }
+  ],
+  "name": "AppLookup",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

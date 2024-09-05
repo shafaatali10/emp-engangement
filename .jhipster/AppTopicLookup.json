@@ -1,0 +1,25 @@
+{
+  "annotations": {
+    "changelogDate": "20240905065549"
+  },
+  "fields": [
+    {
+      "fieldName": "topicCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "topicName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "targetGroup",
+      "fieldType": "String"
+    }
+  ],
+  "name": "AppTopicLookup",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
